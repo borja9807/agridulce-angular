@@ -1,0 +1,24 @@
+<div class="modal" [ngClass]="{'show': showModal}">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Carrito de compras</h5>
+        <button type="button" class="close" (click)="closeModal()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Contenido de tu carrito de compras aquí -->
+        <!-- Por ejemplo: -->
+        <ul>
+          <li>Producto 1</li>
+          <li>Producto 2</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" (click)="checkout()">Realizar compra</button>
+        <button type="button" class="btn btn-secondary" (click)="closeModal()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>

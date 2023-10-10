@@ -1,0 +1,54 @@
+<header class="main-header">
+    <div class="logo">
+        <a href="index.html"><img src="./img/PRUEBA.png" alt="Logo de la tienda" class="logo-image"></a>
+    </div>
+    <nav class="top-nav">
+
+        <!-- Botón para abrir la pestaña -->
+        <!--button id="open-tab-button"><img src="/img/pngegg.png" alt="desplegar" width="30" height=""></button>
+
+        !< Contenedor de la pestaña desplegable>
+        <div id="tab-content" class="hidden">
+            <!-- Elementos de la pestaña -->
+        <!--<ul>
+                <li><a href="#">Boxers de Hombre</a></li>
+                <li><a href="#">Brasier</a></li>
+                <li><a href="#">Conjuntos</a></li>
+                <li><a href="#">Trios de Calzones</a></li>
+            </ul>
+        </div> -->
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="#" class="menu-link">Boxers de Hombre</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Brasier</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Conjuntos</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Tríos de Calzones</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="user-actions">
+        <!-- header.component.html -->
+
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass fa-lg search-bar-icon" (click)="toggleSearchBar()"></i>
+            <form id="search-form" class="hide-bar">
+                <input type="text" class="search-bar-input" placeholder="Buscar productos">
+                <button class="search-bar-btn">Buscar</button>
+            </form>
+        </div>
+
+        <div class="cart">
+            <a (click)="openCartModal()"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+            <div class="cart-container">
+                <!-- Contenido del carrito -->
+            </div>
+        </div>
+    </div>
+
+</header>
