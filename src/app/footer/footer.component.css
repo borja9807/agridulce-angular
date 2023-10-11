@@ -1,0 +1,30 @@
+.footer {
+    background-color: #444343;
+    color: #df6767;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #e64a19;
+  }
+  
+  .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  

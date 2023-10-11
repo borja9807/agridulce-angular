@@ -7,7 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
 import { CartComponent } from './cart/cart.component';
 import { ScriptsComponent } from './scripts/scripts.component';
-import { CartModalComponent } from './cart-modal/cart-modal.component';
+import { FooterComponent } from './footer/footer.component';
+import { CartService } from './cart.service';
 
 @NgModule({
   declarations: [
@@ -16,14 +17,14 @@ import { CartModalComponent } from './cart-modal/cart-modal.component';
     MainComponent,
     CartComponent,
     ScriptsComponent,
-    CartModalComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     NgbModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [CartService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
